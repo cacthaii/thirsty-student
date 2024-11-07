@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=shopName%></title>
+</head>
+<body>
+    <h1>Proudly announcing, we're expanding!</h1>
+        <h2>You can find us at our new locations:</h2>
+        <ul>
+            <% for(let i = 0; i < shopLocations.length; i++) { %>
+                <li><%= shopLocations[i] %></li>
+            <% } %>
+        </ul>
+</body>
+</html>

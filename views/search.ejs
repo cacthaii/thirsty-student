@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=shopName%></title>
+</head>
+<body>
+    <h1>What are you looking for?</h1>
+        <p>Here's where we help you find the right drink for you!</p>
+        <!-- Search boxes with labels -->
+        <form action="/search_result" method="GET">
+            Item:<input id="search_box" type="text" name="search_text">
+            <input type="submit" value="OK" >
+            <form action="/search_result" method="GET">
+                Category:<input id="category" type="text" name="category">
+                <input type="submit" value="OK" >
+          </form>
+      
+</body>
+</html>
